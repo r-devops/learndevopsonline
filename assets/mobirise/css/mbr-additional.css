@@ -997,7 +997,7 @@ a {
 .cid-svHUPgk0oj {
   padding-top: 225px;
   padding-bottom: 225px;
-  background-image: url("../../../assets/images/man-3.jpg");
+  background-image: url("../../../assets/images/mbr-1.jpg");
 }
 .cid-svHUPgk0oj .mbr-section-title {
   margin-bottom: 1.8rem;
@@ -1172,106 +1172,6 @@ a {
 .cid-sILgBVk9gP .mbr-text,
 .cid-sILgBVk9gP .mbr-section-btn {
   color: #000000;
-}
-.cid-sDx2ZYgtDi {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #201313;
-}
-.cid-sDx2ZYgtDi .container-fluid {
-  padding: 0 !important;
-}
-.cid-sDx2ZYgtDi .col-md-12 {
-  padding: 0;
-}
-.cid-sDx2ZYgtDi .row {
-  margin: 0;
-  flex-wrap: nowrap;
-}
-.cid-sDx2ZYgtDi .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.cid-sDx2ZYgtDi .mbr-section-title {
-  margin-bottom: 3rem;
-}
-.cid-sDx2ZYgtDi .number-wrap {
-  color: #ffffff;
-  border: 2px dashed #fa9db7;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  border-radius: 30px;
-  padding: 1rem;
-  width: 210px;
-}
-@media (min-width: 1199px) {
-  .cid-sDx2ZYgtDi .number-wrap {
-    min-width: 250px;
-  }
-}
-.cid-sDx2ZYgtDi .number {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 6.9rem;
-  text-transform: none;
-  letter-spacing: -2px;
-  word-spacing: 0;
-  line-height: 1;
-  color: #ffc85b;
-}
-.cid-sDx2ZYgtDi .period {
-  display: block;
-  line-height: 1;
-}
-.cid-sDx2ZYgtDi .dot {
-  display: none;
-}
-@media (max-width: 991px) {
-  .cid-sDx2ZYgtDi .wrapper {
-    padding: 0 0.5rem;
-  }
-  .cid-sDx2ZYgtDi .number-wrap {
-    width: 150px;
-  }
-  .cid-sDx2ZYgtDi .col-xs-3 {
-    padding: 0 0.5rem;
-  }
-  .cid-sDx2ZYgtDi .number {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sDx2ZYgtDi {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .cid-sDx2ZYgtDi .number-wrap {
-    padding: 0.4rem;
-    width: 100px;
-    border-radius: 20px;
-  }
-  .cid-sDx2ZYgtDi .col-xs-3 {
-    padding: 0 0.3rem;
-  }
-  .cid-sDx2ZYgtDi .number {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 440px) {
-  .cid-sDx2ZYgtDi .number-wrap {
-    padding: 0.1rem 0;
-    width: 75px;
-  }
-  .cid-sDx2ZYgtDi .col-xs-3 {
-    padding: 0 0.2rem;
-  }
-}
-@media (max-width: 380px) {
-  .cid-sDx2ZYgtDi .period {
-    font-size: 0.8rem;
-  }
 }
 .cid-skNTCoFwM1 {
   padding-top: 5rem;
