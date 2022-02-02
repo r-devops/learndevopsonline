@@ -3302,76 +3302,56 @@ a {
 .cid-svI2Wb9uIo .mbr-text {
   padding-top: 16px;
 }
-.cid-svI4ZdrlES {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
+.cid-sWhrRSscY2 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background: #ffffff;
 }
-.cid-svI4ZdrlES .contacts-name {
-  padding-bottom: 5px;
-  margin: 0;
-  color: #a3a6b2;
-}
-.cid-svI4ZdrlES .contacts-info {
-  padding-bottom: 30px;
-  color: #ffffff;
+.cid-sWhrRSscY2 p {
   margin: 0;
 }
-.cid-svI4ZdrlES .margin {
-  margin-bottom: 10px;
-}
-.cid-svI4ZdrlES .mbr-section-title {
-  color: white;
-  margin-bottom: 20px;
-  padding: 0;
-}
-.cid-svI4ZdrlES .description {
-  color: #a3a6b2;
-  margin-bottom: 50px;
-  padding: 0;
-}
-.cid-svI4ZdrlES .title {
-  font-size: 24px;
-}
-.cid-svI4ZdrlES .form-heading {
-  margin-bottom: 40px;
-}
-.cid-svI4ZdrlES label {
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-.cid-svI4ZdrlES input,
-.cid-svI4ZdrlES textarea {
-  background-color: #3F424E;
-  margin-bottom: 30px;
-}
-.cid-svI4ZdrlES .gray-button {
-  margin: 0;
-  background-color: #3F424E;
-  color: #ffffff;
-}
-.cid-svI4ZdrlES .mbr-section-btn {
-  margin: 0;
-  padding: 0;
-}
-.cid-svI4ZdrlES .form-group {
-  padding: 0 5px;
-  margin: 0;
-}
-.cid-svI4ZdrlES .left-side {
-  padding: 0;
-}
-@media (max-width: 1000px) {
-  .cid-svI4ZdrlES .gray-button {
-    margin-bottom: 50px;
-    margin-top: 0px;
+@media (max-width: 991px) {
+  .cid-sWhrRSscY2 .row {
+    justify-content: flex-start !important;
   }
 }
-.cid-svI4ZdrlES .gray-button:hover {
-  background-color: #5e6068;
+.cid-sWhrRSscY2 .mbr-section-head {
+  margin-bottom: 2rem;
 }
-.cid-svI4ZdrlES ::placeholder {
-  color: #a3a6b2;
+.cid-sWhrRSscY2 .mbr-section-title {
+  text-align: center;
+}
+.cid-sWhrRSscY2 .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-sWhrRSscY2 .image-wrapper {
+  margin-bottom: 1rem;
+}
+.cid-sWhrRSscY2 .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-sWhrRSscY2 .card-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  flex-grow: 0;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f3edf7;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: #cd8ad1;
+  border-radius: 30px;
+  justify-content: center;
+}
+.cid-sWhrRSscY2 .mbr-iconfont {
+  font-size: 3rem;
+  color: #cd8ad1;
+}
+.cid-sWhrRSscY2 div[class*="col"] {
+  margin-bottom: 2rem;
 }
 .cid-sILjQUQY6i.popup-builder {
   background-color: #ffffff;
