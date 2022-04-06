@@ -55,10 +55,12 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 95,
-    "versionPublish": "5.6.5",
+    "uniqCompNum": 94,
+    "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "wiouawlz5u"
+    "mbrsiteDomain": "wiouawlz5u",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -703,7 +705,7 @@
           },
           "_name": "countdown1",
           "_sourceTheme": "commercem4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2022/04/10\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#232323\">\n        <input type=\"range\" inline title=\"Numbers Size\" name=\"numbersSize\" min=\"1\" max=\"5\" value=\"3\" step=\"0.1\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@ADDONS_PATH@/commercem4/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title mb-0 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            New Batch Start on</h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style pt-2\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>\n            April 10th</b></h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown\" mbr-class=\"{'pt-4':showTitle || showSubtitle}\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2022/10/04\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#232323\">\n        <input type=\"range\" inline title=\"Numbers Size\" name=\"numbersSize\" min=\"1\" max=\"5\" value=\"3\" step=\"0.1\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@ADDONS_PATH@/commercem4/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title mb-0 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            New Batch Start on</h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style pt-2\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>\n            April 10th</b></h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown\" mbr-class=\"{'pt-4':showTitle || showSubtitle}\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
           "_cid": "sZBp5Fw1Qc",
           "_anchor": "countdown1-2l",
           "_protectedParams": [],
@@ -3284,227 +3286,6 @@
           "_anchor": "accordions1-2i",
           "_isUserblock": true,
           "_cid": "sWhnM6cnaq",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "accordions1",
-          "_sourceTheme": "spiritm4",
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "@media (max-width: 992px)": {
-              "background-color": "@twoColor",
-              ".accordion-content-wrapper": {
-                "padding-top": "10px"
-              },
-              ".mbr-section-subtitle": {
-                "margin-top": "0",
-                "line-height": "2 !important"
-              }
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              ".mbr-overlay when (@twoBgColor)": {
-                "padding": "0",
-                "background": "@twoColor",
-                "opacity": "1",
-                "transform": "scale(3) skewX(25deg)",
-                "transform-origin": "left bottom",
-                "left": "-100%",
-                "bottom": "-5%"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-overlay when not (@bg-type = 'color')": {
-              "background": "@overlayColor",
-              "opacity": "@overlayOpacity"
-            },
-            ".header-text": {
-              "flex": "1 1 auto",
-              "letter-spacing": "1.61px"
-            },
-            "h4": {
-              "letter-spacing": "3.27px !important",
-              "font-style": "normal"
-            },
-            ".panel-collapse": {
-              "letter-spacing": "0.03em",
-              "color": "#ffffff",
-              "text-align": "left",
-              "padding-left": "0px",
-              "padding-right": "0px"
-            },
-            ".mbr-section-subtitle": {
-              "font-weight": "500",
-              "color": "#a5bdce",
-              "margin": "30px 0",
-              "text-align": "center"
-            },
-            ".accordion-content": {
-              "-webkit-flex-basis": "100%",
-              "flex-basis": "100%"
-            },
-            ".accordion-wrapper": {
-              "padding": "0 25px"
-            },
-            ".accordion-content-wrapper": {
-              "padding": "50px 0",
-              "max-width": "484px",
-              "margin": "0 auto"
-            },
-            ".vertical-center": {
-              "align-items": "center"
-            },
-            ".panel-group": {
-              "width": "100%"
-            },
-            ".card": {
-              "border-bottom": "1px solid @borderColor !important",
-              "border-radius": "0px",
-              "&:first-of-type": {
-                "border-top": "1px solid @borderColor"
-              },
-              ".card-header": {
-                "border-radius": "0px",
-                "border": "0px !important",
-                "background-color": "transparent",
-                "padding": "0",
-                "& when not (@showTransparent)": {
-                  "padding": "20px 20px",
-                  "background-color": "@accordionColor"
-                },
-                "& when (@showTransparent)": {
-                  "background-color": "transparent",
-                  "padding": "20px 0"
-                },
-                "a.panel-title": {
-                  "transition": "all .3s",
-                  "margin-bottom": "0",
-                  "padding-left": "0",
-                  "padding-right": "0",
-                  "font-style": "normal",
-                  "font-weight": "500",
-                  "display": "flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "text-decoration": "none !important",
-                  "margin-top": "-1px",
-                  "line-height": "normal",
-                  "&:hover": {
-                    "opacity": "0.5"
-                  },
-                  "&:focus": {
-                    "text-decoration": "none !important"
-                  },
-                  ".sign": {
-                    "padding-left": "1rem"
-                  }
-                }
-              },
-              "h4, h5": {
-                "margin-bottom": "0"
-              },
-              "p": {
-                "margin": "0"
-              },
-              ".panel-body": {
-                "& when (@showPanelTransparent) and (@showTransparent)": {
-                  "background-color": "transparent",
-                  "padding": "4px 0 20px 0"
-                },
-                "& when (@showPanelTransparent) and not (@showTransparent)": {
-                  "background-color": "transparent",
-                  "padding": "24px 0 20px 20px"
-                },
-                "& when not (@showPanelTransparent)": {
-                  "background-color": "@panelColor",
-                  "padding": "24px 20px 20px 20px"
-                }
-              }
-            },
-            ".media-container-row": {
-              "> div": {
-                "display": "flex",
-                "-webkit-align-items": "center",
-                "align-items": "center",
-                "-webkit-justify-content": "center",
-                "justify-content": "center"
-              },
-              "& when (@reverseContent)": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".sign": {
-              "color": "#ffffff",
-              "&:before": {
-                "content": "\"\\e95d\"",
-                "font-weight": "700"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".media-container-row": {
-                "> div": {
-                  "-webkit-flex": "0 0 100%",
-                  "flex": "0 0 100%",
-                  "max-width": "100%"
-                },
-                "& when (@reverseContent)": {
-                  "-webkit-flex-direction": "column-reverse",
-                  "flex-direction": "column-reverse"
-                }
-              }
-            },
-            ".header-text, .sign P": {
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "color": "#ffffff"
-            },
-            ".mbri-arrow-up": {
-              "max-height": "7px",
-              "overflow": "hidden",
-              "vertical-align": "middle",
-              "&:before": {
-                "content": "\"\\e94c\"",
-                "font-weight": "700"
-              }
-            },
-            ".text-container": {
-              "max-width": "934px",
-              "p": {
-                "padding": "30px 0 20.6px 0"
-              }
-            },
-            ".panel-title": {
-              "background": "transparent"
-            },
-            "H4": {
-              "color": "#ffffff"
-            },
-            ".header-text, .sign": {
-              "color": "#ebc6b8"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ebc6b8"
-            },
-            "H5": {
-              "color": "#ebc6b8"
-            },
-            ".panel-text": {
-              "color": "#ffe885",
-              "text-align": "left"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"accordions1\" group=\"Accordions\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-flexclass=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\" style=\"overflow: hidden;\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" checked=\"\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Accordion</header>\n        <input type=\"checkbox\" title=\"Accordion Transparency\" name=\"showTransparent\" checked=\"\">\n        <input type=\"color\" title=\"Accordion Color\" name=\"accordionColor\" value=\"#420c20\" condition=\"!showTransparent\">\n        <input type=\"checkbox\" title=\"Panel Transparency\" name=\"showPanelTransparent\" checked=\"\">\n        \n        <input type=\"color\" title=\"Panel Color\" name=\"panelColor\" value=\"#7394ab\" condition=\"!showPanelTransparent\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#7394ab\">\n        <select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\" selected=\"\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#cbddea\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cbddea\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"2 Background Color\" name=\"twoBgColor\" condition=\"bg.type == 'color'\" checked=\"\">\n        <input type=\"color\" title=\"2 Color\" name=\"twoColor\" value=\"#000000\" condition=\"twoBgColor &amp;&amp; bg.type == 'color'\"> \n         <input type=\"range\" inline=\"\" title=\"Width 2 Bg\" name=\"width2Bg\" min=\"1\" max=\"7\" step=\"1\" value=\"5\" condition=\"twoBgColor &amp;&amp; bg.type == 'color'\">  \n    <!-- End block parameters -->\n    </mbr-parameters>\n <div class=\"mbr-overlay\" mbr-if=\"(overlay &amp;&amp; bg.type !== 'color') || (twoBgColor &amp;&amp; bg.type == 'color')\" mbr-class=\"{'col-md-4': width2Bg == 1 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-5': width2Bg == 2 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-6': width2Bg == 3 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-7': width2Bg == 4 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-8': width2Bg == 5 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-9': width2Bg == 6 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color',\n                     'col-md-10': width2Bg == 7 &amp;&amp; twoBgColor &amp;&amp; bg.type == 'color'}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row vertical-center\">\n            <div class=\"col-lg-6 accordion-wrapper\">\n            <div class=\"accordion-content accordion-content-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\">AWS</h4>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                        <div class=\"card\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                   <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text, .sign\">ABOUT</h5>\n                                   <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">In this section we are going to explore different AWS services. So far we would have discussed about setting up the project but not the best practices of setting up the project like Security, Scalability, High Availability and others. In this section we are going to discuss about those concepts and implement using the services of AWS.<br></p>\n                                </div>\n                            </div>\n                        </div>\n                \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-4\">LIST OF TOPICS</h5>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                                \n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b><u>Load Balancer: </u></b>We discuss about the need to Load Balancer and we setup the ALB &amp; NLB and understand the need of both with scenario based.<br><b><u>ALB Rules: </u></b>There are different ways of setting up the listener rules we discuss through them.<br><b><u>AutoScaling: </u></b>We discuss the need of autoscale for any application and we discuss the strategy of Instance refresh.<br><b><u>Security:</u></b> We discuss the security aspect of application with VPC in Private subnets, Load Balancers with security enabled services like WAF &amp; Sheild.<br><b><u>Databases:</u></b> We discuss the DB components services of AWS like RDS and ElasticCache.<br><b><u>Containers: </u></b>We discuss EKS cluster and setup application inside the Cluster.<br><b><u>CI/CD: </u></b>We will discuss the CI/CD process tools in AWS like CodeBuild, Code Deploy &amp; Code Pipeline.<br><b><u>ElasticSearch:</u></b> We will use Managed service of ElasticSearch in AWS for aggregating the logs.<br><b><u>Prometheus: </u></b>We will use the Managed Prometheus service in AWS for monitoring the servers.<br></p>\n                                </div>\n                            </div>\n                        </div>\n                \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".header-text, .sign\">\n                                         OUTCOME</h5>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text mbr-regular \" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                       By end of this topic you will know how to manage AWS Services which are needed for project.</p>\n                                </div>\n                            </div>\n                        </div>\n                \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                   <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".header-text, .sign\">\n                                       FOURT ONE\n                                   </h5>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam accusamus eaque recusandae modi velit a praesentium ipsa animi facilis repellendus magnam aliquam, numquam debitis fuga laboriosam, quos aut adipisci.</p>\n                                </div>\n                            </div>\n                        </div>\n                \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                    <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".header-text, .sign\">\n                                        FIFTH ONE\n                                    </h5>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFive\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.<br></p>\n                                </div>\n                            </div>\n                        </div>\n                \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core=\"\" href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                   <h5 class=\"mbr-fonts-style header-text mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".header-text, .sign\">SIXTH</h5>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                </div>\n                            </div>\n                        </div>\n                 </div>\n            </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/amazon-web-services-logo-white.png\" alt=\"Mobirise\">\n               </div>\n           </div>            \n       </div>\n            <div class=\"row justify-content-center\">\n        <div class=\"col-md-8 text-container align-center\">\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n                </p>\n                <div class=\"mbr-section-btn\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n        </div>\n    </div>\n    </div> \n</section>",
-          "_anchor": "accordions1-2m",
-          "_isUserblock": true,
-          "_cid": "t2eLRSUqQg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

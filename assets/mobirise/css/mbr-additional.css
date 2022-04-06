@@ -3255,6 +3255,191 @@ a {
   color: #ffe885;
   text-align: left;
 }
+.cid-t2eLRSUqQg {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #cbddea;
+}
+@media (max-width: 992px) {
+  .cid-t2eLRSUqQg {
+    background-color: #000000;
+  }
+  .cid-t2eLRSUqQg .accordion-content-wrapper {
+    padding-top: 10px;
+  }
+  .cid-t2eLRSUqQg .mbr-section-subtitle {
+    margin-top: 0;
+    line-height: 2 !important;
+  }
+}
+.cid-t2eLRSUqQg .mbr-overlay {
+  padding: 0;
+  background: #000000;
+  opacity: 1;
+  transform: scale(3) skewX(25deg);
+  transform-origin: left bottom;
+  left: -100%;
+  bottom: -5%;
+}
+.cid-t2eLRSUqQg .header-text {
+  flex: 1 1 auto;
+  letter-spacing: 1.61px;
+}
+.cid-t2eLRSUqQg h4 {
+  letter-spacing: 3.27px !important;
+  font-style: normal;
+}
+.cid-t2eLRSUqQg .panel-collapse {
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.cid-t2eLRSUqQg .mbr-section-subtitle {
+  font-weight: 500;
+  color: #a5bdce;
+  margin: 30px 0;
+  text-align: center;
+}
+.cid-t2eLRSUqQg .accordion-content {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+}
+.cid-t2eLRSUqQg .accordion-wrapper {
+  padding: 0 25px;
+}
+.cid-t2eLRSUqQg .accordion-content-wrapper {
+  padding: 50px 0;
+  max-width: 484px;
+  margin: 0 auto;
+}
+.cid-t2eLRSUqQg .vertical-center {
+  align-items: center;
+}
+.cid-t2eLRSUqQg .panel-group {
+  width: 100%;
+}
+.cid-t2eLRSUqQg .card {
+  border-bottom: 1px solid #7394ab !important;
+  border-radius: 0px;
+}
+.cid-t2eLRSUqQg .card:first-of-type {
+  border-top: 1px solid #7394ab;
+}
+.cid-t2eLRSUqQg .card .card-header {
+  border-radius: 0px;
+  border: 0px !important;
+  padding: 0;
+  background-color: transparent;
+  padding: 20px 0;
+}
+.cid-t2eLRSUqQg .card .card-header a.panel-title {
+  transition: all .3s;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-t2eLRSUqQg .card .card-header a.panel-title:hover {
+  opacity: 0.5;
+}
+.cid-t2eLRSUqQg .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-t2eLRSUqQg .card .card-header a.panel-title .sign {
+  padding-left: 1rem;
+}
+.cid-t2eLRSUqQg .card h4,
+.cid-t2eLRSUqQg .card h5 {
+  margin-bottom: 0;
+}
+.cid-t2eLRSUqQg .card p {
+  margin: 0;
+}
+.cid-t2eLRSUqQg .card .panel-body {
+  background-color: transparent;
+  padding: 4px 0 20px 0;
+}
+.cid-t2eLRSUqQg .media-container-row {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.cid-t2eLRSUqQg .media-container-row > div {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-t2eLRSUqQg .sign {
+  color: #ffffff;
+}
+.cid-t2eLRSUqQg .sign:before {
+  content: "\e95d";
+  font-weight: 700;
+}
+@media (max-width: 991px) {
+  .cid-t2eLRSUqQg .media-container-row {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .cid-t2eLRSUqQg .media-container-row > div {
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.cid-t2eLRSUqQg .header-text,
+.cid-t2eLRSUqQg .sign P {
+  text-align: left;
+}
+.cid-t2eLRSUqQg .mbr-text {
+  color: #ffffff;
+}
+.cid-t2eLRSUqQg .mbri-arrow-up {
+  max-height: 7px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.cid-t2eLRSUqQg .mbri-arrow-up:before {
+  content: "\e94c";
+  font-weight: 700;
+}
+.cid-t2eLRSUqQg .text-container {
+  max-width: 934px;
+}
+.cid-t2eLRSUqQg .text-container p {
+  padding: 30px 0 20.6px 0;
+}
+.cid-t2eLRSUqQg .panel-title {
+  background: transparent;
+}
+.cid-t2eLRSUqQg H4 {
+  color: #ffffff;
+}
+.cid-t2eLRSUqQg .header-text,
+.cid-t2eLRSUqQg .sign {
+  color: #ebc6b8;
+}
+.cid-t2eLRSUqQg .mbr-text,
+.cid-t2eLRSUqQg .mbr-section-btn {
+  color: #ebc6b8;
+}
+.cid-t2eLRSUqQg H5 {
+  color: #ebc6b8;
+}
+.cid-t2eLRSUqQg .panel-text {
+  color: #ffe885;
+  text-align: left;
+}
 .cid-svI2Wb9uIo {
   padding-top: 5rem;
   padding-bottom: 5rem;
