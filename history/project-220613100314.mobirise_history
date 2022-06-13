@@ -56,7 +56,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 98,
+    "uniqCompNum": 97,
     "versionPublish": "5.6.5",
     "screenshot": "screenshot.png",
     "mbrsiteDomain": "wiouawlz5u",
@@ -621,138 +621,6 @@
           "_params": {}
         },
         {
-          "_name": "testimonials01",
-          "_sourceTheme": "designerm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"carouse1 slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider, mobirise-icons2\" data-interval=\"false\" data-bs-interval=\"false\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"2000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\">\n        <input type=\"color\" title=\"Controls Color\" name=\"color\" value=\"#121212\" selected>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@ADDONS_PATH@/designerm4/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-5 text-center\">\n\n\n\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-bs-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\" data-bs-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                Thanks so much for such a great training Raghu! (I don’t normally write a feedback!) So much of your training was just what I needed to boost my change in mindset and working practices. I just wanted to let you know how much I appreciated your structured approach to such a wide topic with some fantastic takeaways which I can put into practice. And the beauty is that even after the training, our relationship continues endlessly with the technical clarifications over slack and permanent Zoom link. Thanks again.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Anil</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div>\n\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                Wonderful experience of learning. Raghu follows narrative approach of teaching. He explains complex concepts in a simpler manner and he is always available to solve doubts. Thank you raghu.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Shalini C</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div>\n\n\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                Best DevOps course one has to attend if they aspire to be a DevOps Engineer. We get to learn all latest practices with realtime like scenarios. Course gives lot of confidence to move towards DevOps journey.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Lakshmi</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div>\n            <div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                This is the perfect training for devops and aws, got lots of knowledge into devops theoretically and practically as well. He has lots of patience to explain each and every topic clearly, which I liked the most. The trainer was really good and hands-on made me really understand in-depth about it. I would rate five stars for my devops course. Very thankful raghu sir for helping me to learn complete course. All the very best.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Priyanka</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                I always have a dream of achieving high pay with Good Platform. So I have chosen Devops from Raghu and Siva. They are indeed survivors of me. I am a Proud AWS with Devops employee with Infosys. I got more than 100% hike. Thanks for your hard work. </p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Suvarna Deepika Chegondi</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                It was a great training experience with such huge experienced trainer. All sessions will be covered in detail as per the given blue print. You can learn many tools with Real-time Project Experience. I would recommend anyone who is looking forward to get into DevOps world he is the right trainer</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Venu Gopal</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                You always go above and beyond for all of us, thank you ever so much for all of the knowledge and guidance that you have so generously shared with me. I will forever be grateful for all of the roles that you have played in my life. Thank you so much!</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Tapas Kumar Rout</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                An excellent trainer. Immense knowledge of everything what he teaches. Never even a single second ever I felt I was bored in his sessions. Learnt Devops quickly even though I am not so techie thanks to Raghu. Just by watching his demo session I was sorted and decided I will go with his teachings. Highly recommended if anyone wants to learn Devops.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Mohammed Rizwan</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                It is a very good experience and getting these kind of crash courses boost our confidence levels to succeed. Course is really extraordinary, the way you teach is pinnacle. Covering the each and every topic in such a way that makes us to do. One thing I have to tell you about the Slack access, it is very good platform to make queries, discuss and share the solutions and providing recorded sessions is dare step in current environment. Last but not the least is your quicker response to our queries, I know how much difficult it is to be patience to all the queries. Finally My heartful thanks to you Raghu and your backend team who makes the organization of this course in smooth manner.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Ann Stroud</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"user col-md-10 col-lg-8\">\n                        <h2 class=\"pb-2 title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                            Testimonials</h2>\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">\n                                If there is any course in the market which teaches project based approach right from day one . Also, which covers all the required tools of cloud and devops ,which is present in the market. then this is the one stop solution for you. There are 1000's of courses available in youtube, online courses. But , this is the only course where you get to know all the tools are connected ,which simulate the real world experience with strong hands on experience. For freshers or even experienced folks who wants to start their cloud with devops journey. you are in the right place.</p>\n                        </div>\n                        <div class=\"user_image\">\n                            <img src=\"@PROJECT_PATH@/assets/images/urbanpro-logo-1.png\" alt>\n                        </div>\n                        <h4 mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_name\">Ramgopalvarma</h4>\n                        <h3 mbr-text class=\"user_status mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_status\">Designer</h3>\n                    </div>\n                </div></div>\n\n            <ol class=\"carousel-indicators\">\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" class=\" active\" data-slide-to=\"0\" data-bs-slide-to=\"0\" mbr-if=\"testimonialsSlides > 0\"></li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"1\" data-bs-slide-to=\"1\" mbr-if=\"testimonialsSlides > 1\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"2\" data-bs-slide-to=\"2\" mbr-if=\"testimonialsSlides > 2\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"3\" data-bs-slide-to=\"3\" mbr-if=\"testimonialsSlides > 3\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"4\" data-bs-slide-to=\"4\" mbr-if=\"testimonialsSlides > 4\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"5\" data-bs-slide-to=\"5\" mbr-if=\"testimonialsSlides > 5\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"6\" data-bs-slide-to=\"6\" mbr-if=\"testimonialsSlides > 6\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"7\" data-bs-slide-to=\"7\" mbr-if=\"testimonialsSlides > 7\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"8\" data-bs-slide-to=\"8\" mbr-if=\"testimonialsSlides > 8\">\n                </li>\n                <li data-app-prevent-settings data-target=\"#slider1\" data-bs-target=\"#slider1\" data-slide-to=\"9\" data-bs-slide-to=\"9\" mbr-if=\"testimonialsSlides > 9\">\n                </li>\n            </ol>\n\n\n\n            <div class=\"carousel-controls\" mbr-if=\"showArrow\">\n                <a class=\"carousel-control-prev\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n                    <span aria-hidden=\"true\" class=\"mbri-arrow-prev mbr-iconfont\"></span>\n                    <span class=\"sr-only visually-hidden\">Previous</span>\n                </a>\n\n                <a class=\"carousel-control-next\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n                    <span aria-hidden=\"true\" class=\"mbri-arrow-next mbr-iconfont\"></span>\n                    <span class=\"sr-only visually-hidden\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".carousel": {
-              "z-index": "2",
-              "position": "relative"
-            },
-            ".user": {
-              "padding": "0 !important"
-            },
-            ".carousel-inner": {
-              "position": "relative"
-            },
-            ".user_image": {
-              "width": "100px",
-              "height": "100px",
-              "overflow": "hidden",
-              "border-radius": "50%",
-              "margin": "0 auto 1rem auto",
-              "position": "relative",
-              "img": {
-                "width": "100%",
-                "min-width": "100%",
-                "min-height": "100%"
-              },
-              "&:before": {
-                "content": "''",
-                "position": "absolute",
-                "height": "198px",
-                "width": "198px",
-                "left": "0px",
-                "top": "0px",
-                "background": "transparent",
-                "border-radius": "100%",
-                "z-index": "0"
-              }
-            },
-            ".carousel-item": {
-              "-webkit-box-pack": "center",
-              "justify-content": "center",
-              "-webkit-justify-content": "center"
-            },
-            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
-              "display": "flex"
-            },
-            ".user_name": {
-              "margin": "0",
-              "color": "#121212"
-            },
-            ".carousel-controls": {
-              "a": {
-                "font-size": "2rem",
-                "span": {
-                  "position": "absolute",
-                  "-webkit-transition": "opacity 0.3s",
-                  "transition": "opacity 0.3s",
-                  "top": "100px",
-                  "padding": "10px",
-                  "border-radius": "50%",
-                  "color": "@color",
-                  "background": "transparent",
-                  "opacity": "0.5"
-                },
-                "&:hover": {
-                  "span": {
-                    "opacity": "1",
-                    "cursor": "pointer"
-                  }
-                }
-              }
-            },
-            "ol": {
-              "margin-bottom": "0",
-              "top": "-3rem",
-              "height": "fit-content",
-              "position": "absolute"
-            },
-            ".carousel-indicators li": {
-              "width": "7px",
-              "height": "7px",
-              "margin": "auto 7px",
-              "border": "none",
-              "background": "@color",
-              "-webkit-transition": "all 0.3s",
-              "transition": "all 0.3s",
-              "border-radius": "50%",
-              "opacity": "0.5",
-              "position": "relative",
-              "&:hover": {
-                "opacity": "1"
-              }
-            },
-            ".carousel-indicators .active": {
-              "opacity": "1",
-              "width": "14px",
-              "height": "14px",
-              "&:before": {
-                "content": "''",
-                "position": "absolute",
-                "height": "14px",
-                "width": "14px",
-                "left": "-3px",
-                "top": "-3px",
-                "background": "transparent",
-                "border-radius": "100%",
-                "z-index": "-1"
-              }
-            },
-            ".user_text": {
-              "color": "#121212"
-            },
-            ".user_status": {
-              "color": "#707070"
-            }
-          },
-          "_cid": "t8BPBTyTt1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "testimonials01-2p"
-        },
-        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -771,9 +639,141 @@
           },
           "_name": "info1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Features\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#c6d7f5\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-8\">\n                <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <b>Upcoming Batch is on July 17th</b></h3>\n                <p class=\"mbr-text mb-5 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios. 3100+ beautiful website blocks, templates and themes help you to start easily.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Visit Forums</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Features\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#c6d7f5\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-8\">\n                <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <b>Upcoming Batch is on May29th</b></h3>\n                <p class=\"mbr-text mb-5 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios. 3100+ beautiful website blocks, templates and themes help you to start easily.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Visit Forums</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t5pnEEB8zW",
           "_anchor": "info1-2n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "font-weight": "300"
+            },
+            ".number-wrap": {
+              "color": "@labelsColor",
+              "border-color": "rgba(255, 255, 255, 0.15)",
+              "position": "relative",
+              "display": "inline-block",
+              "text-align": "center",
+              "padding": "5px 10px 13px 10px",
+              "margin": "0",
+              "min-width": "118px",
+              "border-radius": "2px",
+              "max-width": "100%"
+            },
+            ".countdown-cont": {
+              "div:not(:last-child)": {
+                "border-right": "2px solid lightgray"
+              },
+              "margin": "0 auto",
+              ".row": {
+                "-webkit-flex-wrap": "nowrap"
+              }
+            },
+            ".number": {
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "text-transform": "none",
+              "letter-spacing": "-2px",
+              "word-spacing": "0",
+              "line-height": "1.3",
+              "color": "@numbersColor"
+            },
+            ".period": {
+              "display": "block",
+              "padding-top": "2px"
+            },
+            ".dot": {
+              "position": "absolute",
+              "top": "-10px",
+              "right": "-0.8em",
+              "width": "1em",
+              "display": "none",
+              "height": "83%",
+              "overflow": "hidden",
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "line-height": "89.65px",
+              "text-transform": "none",
+              "letter-spacing": "0",
+              "word-spacing": "0",
+              "color": "@numbersColor"
+            },
+            ".full-count-container": {
+              "background": "@countdownBg"
+            },
+            "@media (min-width: 992px) and (max-width: 1200px)": {
+              ".dot": {
+                "right": "-0.6em"
+              }
+            },
+            "@media (min-width: 768px) and (max-width: 991px)": {
+              ".dot": {
+                "right": "-1em"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".dot": {
+                "display": "none"
+              },
+              ".number": {
+                "white-space": "nowrap"
+              },
+              ".countdown-cont": {
+                "div:not(:last-child)": {
+                  "border-right": "0px solid lightgray"
+                },
+                "div": {
+                  "padding": "0"
+                },
+                "margin": "0 auto"
+              },
+              ".col-sm-3": {
+                "padding": "0"
+              }
+            },
+            "@media (max-width: 550px)": {
+              ".number-wrap": {
+                "min-width": "auto"
+              }
+            },
+            "@media (max-width: 440px)": {
+              ".number-wrap": {
+                "padding": "5px 5px 13px 5px"
+              },
+              ".number": {
+                "font-size": "40px"
+              }
+            },
+            "@media (max-width: 380px)": {
+              ".period": {
+                "font-size": "0.8rem"
+              }
+            },
+            "@media (max-width: 300px)": {
+              ".number": {
+                "font-size": "25px"
+              },
+              ".period": {
+                "font-size": "0.7rem"
+              }
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "countdown1",
+          "_sourceTheme": "petsm4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"countdown1 petsm4_countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2022/05/29\">\n\t\t<input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"DAYS\">\n\t\t<input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"HOURS\">\n\t\t<input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"MINUTES\">\n\t\t<input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"SECONDS\">\n\t\t<input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#181818\">\n\t\t<input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ed6436\">\n\t\t<input type=\"color\" title=\"Countdown Background\" name=\"countdownBg\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container-fluid pt-5 pb-5 full-count-container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"countdown-cont align-center col-md-10 col-lg-8\">\n\t\t\t\t<div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n\t\t\t\t<div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n\t\t\t\t<div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n\t\t\t\t<div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n\t\t\t\t<div class=\"countdown \" data-due-date=\"{{countdown}}\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "t5pnHW0W2i",
+          "_anchor": "countdown1-2o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3580,7 +3580,7 @@
         },
         {
           "_name": "image6",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image6\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/mbr-6.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h4 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Recent Recorded Demo Session</b></h4>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/MFbgotP6vLQ?loop=0&autoplay=1\"></iframe>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image6\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/mbr-6.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h4 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Recent Recorded Demo Session</b></h4>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/p1BiQN5VX7M?loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
