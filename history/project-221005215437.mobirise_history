@@ -59,7 +59,9 @@
     "uniqCompNum": 102,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "wiouawlz5u"
+    "mbrsiteDomain": "wiouawlz5u",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
