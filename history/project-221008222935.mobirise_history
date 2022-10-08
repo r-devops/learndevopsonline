@@ -56,10 +56,12 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 103,
+    "uniqCompNum": 102,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "wiouawlz5u"
+    "mbrsiteDomain": "wiouawlz5u",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -753,102 +755,31 @@
           "_params": {}
         },
         {
-          "_name": "features01",
-          "_sourceTheme": "conceptm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Card</header>\n        <input type=\"color\" title=\"Card 1\" name=\"cardColor1\" value=\"#6f5ad3\">\n        <input type=\"color\" title=\"Card 2\" name=\"cardColor2\" value=\"#27b7eb\">\n        <input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/conceptm4/components/_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/conceptm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <h3 class=\"main-title align-center mbr-semibold mbr-black pb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".main-title\"><b>UpComing New Batches</b></h3>\n            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Discover</a></div>\n            <div class=\"col-12 col-md-12 card1 col-lg-6\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    <div class=\"card-box align-center\">\n                        <h4 class=\"card-title align-center mbr-semibold mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".card-title\"><b>DevOps with Azure</b></h4>\n                        <p class=\"card-text align-center mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".card-text\" mbr-if=\"showText\">FROM OCT 10</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-12 card2 col-lg-6\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                    <div class=\"card-box align-center\">\n\n                        <h4 class=\"card-title align-center mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".card-title\">\n                            <b>DevOps with AWS</b></h4>\n                        <p class=\"card-text align-center mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".card-text\" mbr-if=\"showText\">FROM OCT 30<br>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".container-fluid": {
-              "padding": "0 1rem"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".row": {
-              "position": "relative"
-            },
-            ".mbr-section-btn": {
-              "position": "absolute",
-              "bottom": "3rem",
-              "width": "fit-content",
-              "margin": "auto",
-              "left": "50%",
-              "transform": "translateX(-50%)",
-              "z-index": "3"
-            },
-            ".main-title": {
-              "position": "absolute",
-              "top": "3rem",
-              "width": "90%",
-              "left": "50%",
-              "transform": "translateX(-50%)",
-              "z-index": "3",
-              "color": "#ffffff"
-            },
-            ".mbr-iconfont": {
-              "position": "absolute",
-              "top": "50%",
-              "left": "50%",
-              "transform": "translate(-50%, -50%)",
-              "display": "block",
-              "font-size": "30rem",
-              "color": "@iconColor",
-              "opacity": "0.2",
-              "z-index": "1"
-            },
-            ".card-box": {
-              "z-index": "2",
-              "margin": "auto",
-              "position": "relative",
-              "max-width": "450px",
-              "height": "100%"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "transition": "all 0.3s",
-              "padding": "18rem 1rem",
-              "overflow": "visible",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center"
-            },
-            ".card1": {
-              "background-color": "@cardColor1",
-              "overflow": "hidden"
-            },
-            ".card2": {
-              "background-color": "@cardColor2",
-              "overflow": "hidden"
-            },
-            ".card-title, .card-box": {
-              "color": "#ffffff"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
+            ".mbr-section-title": {
+              "color": "#201313"
             }
           },
-          "_cid": "tjH0hZD686",
+          "_name": "info1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Features\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-7.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#c6d7f5\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fff0b0\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-8\">\n                <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <b>Next Batch is from October 30th</b></h3>\n                <p class=\"mbr-text mb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><u>\n                    Timing</u><br><b>7.30AM to 9.00AM IST <br></b><i>(29th October 10.00PM to 11.30PM EST)</i></p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://live.learndevopsonline.com/demo/index.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">JOIN NOW</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5pnEEB8zW",
+          "_anchor": "info1-2n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features01-2u"
+          "_params": {}
         },
         {
           "_name": "article04",
